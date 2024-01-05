@@ -1,0 +1,13 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+font-family: 'Open Sans', sans-serif;
+<p>module.exports = function(eleventyConfig){
+eleventyConfig.addPassthroughCopy(&quot;images&quot;);
+eleventyConfig.addPassthroughCopy(&quot;css&quot;);
+return
+templateFormats: [&quot;njk&quot;, &quot;html&quot;, &quot;md&quot;]
+markdownTemplateEngine: &quot;njk&quot;,
+htmlTemplateEngine: &quot;njk&quot;,
+dataTemplateEngine: &quot;njk&quot;
+}</p>

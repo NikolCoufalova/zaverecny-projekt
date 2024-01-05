@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starodeníky - Coufalová</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header_logo">
+            <a href="/"> <img src="/images/logo.svg" alt="logo"> </a>
+        </div>
+        <ul class="menu__container">
+            <div class="menu__item-container">
+                <li class="menu__item"> <a href="/#brand"> O značce</a></li>
+                <hr class="menu_line">
+            </div>
+            <div class="menu__item-container">
+                <li class="menu__item"><a href="/#portfolio">Portfolio</a></li>
+                <hr class="menu_line">
+            </div>
+            <div class="menu__item-container">
+                <li class="menu__item"><a href="/#about">Kdo jsem</a></li>
+                <hr class="menu_line">
+            </div>
+            <div class="menu__item-container">
+                <li class="menu__item"><a href="/#order">Objednat</a></li>
+                <hr class="menu_line">
+            </div>
+            <div class="menu__item-container">
+            <li class="menu__item"><a href="/faq/" class="link">FAQ</a></li>
+            <hr class="menu_line">
+            </div>
+            <div class="menu__item-container">
+            <li class="menu__item"><a href="/#kontakt">Kontakt</a></li>
+            <hr class="menu_line">
+            </div>
+        </ul> 
+    </header>
+<main class="main">
+    {{ content | safe }}
+</main>
+    <div class="footer">
+        <div class="footer_line">
+            <hr class="footerline">
+        </div>
+        <div class="footer_nav">
+            <img class="logo_zapati" src="/images/logo zapati mobil.svg" alt="logo_zapati">
+            <ul class="footer_list">
+                <li><a href="/faq/">Nejčastější dotazy</a></li>
+                <li><a href="/doprava/"">Doprava a platba</a></li>
+                <li><a href="/podminky/">Obchodní podmínky</a></li>
+            </ul>
+        </div>
+        <div class="footer_line">
+            <hr class="footerline">
+        </div>
+        <div class="section_kontakt" id="kontakt">
+            <div class="kontakt_container">
+                <div class="links_items">
+                    <a href="https://www.instagram.com/starodeniky/" target="blank"> <img src="/images/mobil kontakt ig.svg"> </a>
+                    <a href="tel:+420725489332" target="blank"> <img src="/images/mobil kontakt phone.svg"> </a>
+                    <a href="mailto:starodeniky@gmail.com" target="blank"> <img src="/images/mobil kontakt mail.svg"> </a>
+                </div>
+                <div class="adresa_container">
+                    <p>Adresa:</p>
+                    <p>Koželužská 3034/1</p>
+                    <p>301 00  Plzeň</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
