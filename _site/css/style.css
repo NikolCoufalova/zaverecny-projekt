@@ -366,26 +366,27 @@ html { box-sizing: border-box; }
     margin-left: 5%;
   }
 
-  .gallery {
-    /*
-    display: grid;
-    position: relative;
-    grid-template-columns: repeat(2, 450px); 
-    grid-auto-rows: minmax(200px, auto);
-    */
-    display: grid;
-    position: relative;
-    grid-template-areas: "denik stranky"
-                         "denik desky"
-                         "vazba desky";
-    
+    .gallery {
+      /*
+      display: grid;
+      position: relative;
+      grid-template-columns: repeat(2, 450px); 
+      grid-auto-rows: minmax(200px, auto);
+      */
+      display: grid;
+      position: relative;
+      grid-template-areas: "denik stranky"
+                          "denik desky"
+                          "vazba desky";
+      
 
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+  
   
   .gallery img {
     width: 100%;
